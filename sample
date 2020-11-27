@@ -5,5 +5,6 @@ y = 23
 print(x + y)
 
 list = [12, 23, 34, 45, 56, 67, 78, 89, 90]
-if x%2 ==o:
-print(x)
+for x in list:
+  if x%2 == 0:
+    print(x)
